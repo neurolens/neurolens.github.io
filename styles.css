@@ -1,0 +1,37 @@
+#main {
+  text-align: center;
+  margin: -5px 0px 0px 0px;
+  font-size: 75px;
+  font-family: monospace;
+  background: url(Background.jpg);
+  background-size: cover;
+}
+#advert {
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+  font-size: 75px;
+  font-family: monospace;
+  background: url(Colour.jpg);
+  background-size: cover;
+}
+.buy {
+  color: white;
+  text-decoration: none;
+  border: solid 10px darkblue;
+  border-radius: 150px;
+  padding: 20px;
+  background-color: #35c1cc;
+}
+.buy:hover {
+  color: white;
+  background-color: #6de4ed;
+  text-decoration: bold;
+  transition: 500ms;
+}
+#iframe {
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  border: solid 10px #50f442;
+}
